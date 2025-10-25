@@ -4,10 +4,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>flexbox3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap');
+    </style>
+    <style>
+        .first {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 5px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: black;
+            margin: 0 15px;
+            font-family: 'Space Grotesk', sans-serif;
+
+        }
+
+        .button {
+            background-color: rgba(255, 255, 255, 0);
+            color: rgb(0, 0, 0);
+            padding: 10px 20px;
+            border: black 1px solid;
+            border-radius: 5px;
+            font-size: 12px;
+            font-family: 'Space Grotesk', sans-serif;
+        }
+
+        .second {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 5px;
+            font-family: 'space grotesk', sans-serif;
+        }
+
+        .heading {
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 2px;
+        }
+
+        .heading h1 {
+            font-size: 50px;
+        }
+
+        .heading p {
+            font-size: 16px;
+        }
+
+        .heading .button2 {
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            padding: 10px 20px;
+            border: black 1px solid;
+            border-radius: 8px;
+            font-size: 12px;
+            font-family: 'Space Grotesk', sans-serif;
+            margin-top: 10px;
+        }
+
+        .image {
+            margin: 50px;
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="first">
+        <div class="logo">
+            <img src="image/p.logo.svg" alt="logo" width="60%">
+        </div>
+        <div class="nav">
+            <a href="#">About us</a>
+            <a href="#">Services</a>
+            <a href="#">Use Cases</a>
+            <a href="#">Pricing</a>
+            <a href="#">Blog</a>
+        </div>
+        <div class="nav.button">
+            <button class="button">Request a quote</button>
+        </div>
+    </div>
+    <div class="second">
+        <div class="heading">
+            <h1> Navigating the digital landscape for success</h1>
+            <p> Our digital marketing agency helps businesses grow and succeed online through a range of services
+                including SEO, PPC, social media marketing, and content creation.</p>
+            <button class="button2"> Book a consultation </button>
+        </div>
+        <div class="image">
+            <img src="image/positivus_image.svg" alt="image" width="100%">
+        </div>
+    </div>
+    <div>
+        <div class="third">
+            <div class="apps">
+                <img src="image/appstore.svg" alt="appstore" width="40%">
+            </div>
+
+        </div>
+    </div>
 
 </body>
 
