@@ -34,6 +34,12 @@
             font-family: 'Space Grotesk', sans-serif;
         }
 
+        .button:hover {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+        }
+
         .second {
             display: flex;
             align-items: center;
@@ -43,9 +49,8 @@
         }
 
         .heading {
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-top: 2px;
+            margin: 50px;
+            margin-left: 100px;
         }
 
         .heading h1 {
@@ -67,9 +72,33 @@
             margin-top: 10px;
         }
 
+        .heading .button2:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+
         .image {
+            margin-right: 100px;
             margin: 50px;
-            width: 100%;
+            width: 70%;
+        }
+
+        .apps {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 70px;
+            margin: 20px;
+        }
+
+        .apps img {
+            filter: grayscale();
+        }
+
+        .app img:hover {
+            filter: none;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -104,8 +133,14 @@
     <div>
         <div class="third">
             <div class="apps">
-                <img src="image/appstore.svg" alt="appstore" width="40%">
+                <img src="image/a_image.svg" alt="amazon" width="10%">
+                <img src="image/s_image.svg" alt="srilllle" width="10%">
+                <img src="image/h_image.svg" alt="hubspot" width="10%">
+                <img src="image/notion.logo.svg" alt="notion" width="10%">
+                <img src="image/n_image.svg" alt="netflix" width="10%">
+                <img src="image/z_image.svg" alt="paypal" width="10%">
             </div>
+
 
         </div>
     </div>
