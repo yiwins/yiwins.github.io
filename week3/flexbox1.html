@@ -5,26 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flexbox1</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet">
 
     <style>
         body {
             background-color: #f6f5ef;
+            font-family: "Oxygen", sans-serif;
         }
 
 
 
         .rp {
             background-color: #ffffff;
-            padding: 5px;
-            border-radius: 10px;
+            padding: 25px;
+            border-radius: 18px;
             margin: 10px;
-
-
-
-
 
         }
 
@@ -32,8 +31,8 @@
 
         .cs {
             background-color: #ffffff;
-            padding: 5px;
-            border-radius: 10px;
+            padding: 25px;
+            border-radius: 18px;
             margin: 10px;
 
 
@@ -42,8 +41,8 @@
 
         .iw {
             background-color: #ffffff;
-            padding: 5px;
-            border-radius: 10px;
+            padding: 25px;
+            border-radius: 18px;
             margin: 10px;
 
         }
@@ -51,47 +50,56 @@
         .all {
 
             display: flex;
-            font-family: oxygen;
             justify-content: center;
             align-items: center;
-            gap: 20px;
-            margin: 10px;
+            gap: 15px;
+            margin: 20px;
             padding: 30px;
-
-
         }
 
-
-
-
-
-
-
         .image1 {
-            height: 250px;
+            height: 350px;
             background-image: url('image/flexboximg1.jpg');
             background-size: cover;
             background-position: center;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            border-radius: 10px;
+
         }
 
         .image2 {
-            height: 250px;
+            height: 350px;
             background-image: url('image/flexboximg2.jpg');
             background-size: cover;
             background-position: center;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            border-radius: 10px;
+
         }
 
         .image3 {
-            height: 250px;
+            height: 350px;
             background-image: url('image/flexboximg3.jpg');
             background-size: cover;
             background-position: center;
-            border-radius: 5px;
-            margin-bottom: 10px;
+            border-radius: 10px;
+
+        }
+
+        .p1,
+        .p2,
+        .p3 {
+            padding: 40px 20px;
+        }
+
+        .p1 h3,
+        .p2 h3,
+        .p3 h3 {
+            font-size: 28px;
+        }
+
+        .p1 p,
+        .p2 p,
+        .p3 p {
+            font-size: 18px;
         }
     </style>
 </head>
@@ -101,22 +109,26 @@
         <div class="rp">
             <div class="image1">
             </div>
-            <h3>Residential projects</h3>
-            <p>We build sustainable and modern homes for comfortable living.</p>
-
+            <div class="p1">
+                <h3>Residential projects</h3>
+                <p>We build sustainable and modern homes for comfortable living.</p>
+            </div>
         </div>
         <div class="cs">
             <div class="image2">
             </div>
-            <h3>Commercial spaces</h3>
-            <p>We create efficient, inspiring workspaces for businesses of all sizes.</p>
+            <div class="p2">
+                <h3>Commercial spaces</h3>
+                <p>We create efficient, inspiring workspaces for businesses of all sizes.</p>
+            </div>
 
         </div>
         <div class="iw">
-            <div class="image3">
+            <div class="image3"></div>
+            <div class="p3">
+                <h3>Infrastructure works</h3>
+                <p>We develop strong, reliable infrastructure for growing communitier.</p>
             </div>
-            <h3>Infrastructure works</h3>
-            <p>We develop strong, reliable infrastructure for growing communitier.</p>
         </div>
     </div>
 
