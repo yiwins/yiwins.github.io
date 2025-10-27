@@ -53,7 +53,9 @@
 
         .right {
             display: flex;
-            width: 40%;
+            width: 30%;
+            justify-content: right;
+            align-items: center;
 
 
         }
@@ -67,8 +69,8 @@
 
         .phonelogo {
             width: 20%;
-            padding: 7px;
-            margin-top: 10px;
+            padding: 5px;
+            margin-top: 5px;
         }
 
         /* .num {
@@ -82,7 +84,8 @@
         .num p {
             justify-content: center;
             align-items: center;
-
+            padding: 5px;
+            text-align: center;
         }
 
         .hamburger2 {
@@ -115,6 +118,7 @@
 
         .contact2 {
             display: flex;
+            align-items: center;
 
         }
 
@@ -124,6 +128,7 @@
         .contactinside {
             display: flex;
             gap: 2px;
+
 
         }
 
@@ -173,6 +178,12 @@
         .contact {
             display: flex;
         }
+
+        .button {
+            width: 20%;
+            height: 20%;
+            justify-content: center;
+        }
     </style>
 
 </head>
@@ -220,8 +231,10 @@
         </div>
         <div class="contact2">
             <div class="contactinside">
-                <img src="image/call.png" alt="contact2" width="40px" height="40px">
-                <p>555-123-4567</p>
+                <div><img src="image/call.png" alt="contact2" width="40px" height="40px"></div>
+                <div>
+                    <p>555-123-4567</p>
+                </div>
             </div>
             <button class="button">Contact</button>
         </div>
