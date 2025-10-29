@@ -16,38 +16,43 @@
             align-items: center;
             background-color: rgb(255, 255, 255);
             width: 100%;
+            padding: 5px;
+            font-family: sans-serif;
         }
 
         .logo {
             width: 20%;
-            padding-left: 10px;
+            padding-left: 20px;
+            padding-top: 5px;
         }
 
         .clicksection {
             display: flex;
-            gap: 10px;
+            gap: 30px;
+            width: 30%;
+
         }
 
         .clicksection a {
             text-decoration: none;
             color: black;
             align-items: center;
-            font-size: 12px;
-            gap: 20px;
+            font-size: 15px;
+
         }
 
 
         .clicksection a.orange {
-            color: #f77008;
+            color: #f9612b;
         }
 
         .rightbar {
             display: flex;
             align-items: center;
-            gap: 10px;
+            gap: 12px;
             width: 20%;
             justify-content: right;
-            padding-right: 10px;
+            padding-right: 20px;
         }
 
         .contact {
@@ -59,13 +64,17 @@
         }
 
         .b-contact {
-            background-color: #f77008;
+            background-color: #f9612b;
             color: rgb(255, 255, 255);
-            border: solid, 1px black;
+            border: #f9612b;
             border-radius: 5px;
             font-size: 12px;
-            padding: 5px;
+            padding: 9px;
+        }
 
+        .hamburger {
+            width: 8%;
+            display: none;
         }
     </style>
 </head>
@@ -73,7 +82,7 @@
 <body>
     <div class="navigationbar">
         <div class="logo">
-            <img src="image/logo.png" alt="logo" width="100%">
+            <img src="image/logo.png" alt="logo" width="50%">
         </div>
         <div class="clicksection">
             <div> <a href="#">Home</a></div>
@@ -93,6 +102,9 @@
             </div>
             <div class="button">
                 <button class="b-contact">Contact</button>
+            </div>
+            <div class="hamburger">
+                <img src="image/hamburger.png" alt="hamburger" width="100%">
             </div>
         </div>
     </div>
