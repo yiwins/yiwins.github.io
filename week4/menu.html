@@ -5,9 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .navigationbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+
+
+
+
+        .rightbar {
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            gap: 20px
+        }
+
+        .contact {
+            width: 10%;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="navigationbar">
+        <div class="logo">
+            <img src="image/logo.png" alt="logo">
+        </div>
+        <div class="clicksection">
+            <a href="#">Home</a>
+            <a class="orange" href="#">Services</a>
+            <a href="#">Work</a>
+            <a href="#">Project Details</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="rightbar">
+            <div class="contact">
+                <img src="image/call.png" alt="contact" width="100%">
+
+            </div>
+            <div class="contactnumber">
+                <p>555-123-4567</p>
+            </div>
+            <div class="button">
+                <button>Contact</button>
+            </div>
+        </div>
+    </div>
 
 </body>
 
