@@ -6,26 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        body {
+            background-color: rgb(226, 226, 226);
+        }
+
         .navigationbar {
             display: flex;
             justify-content: space-between;
             align-items: center;
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+        }
+
+        .logo {
+            width: 20%;
+            padding-left: 10px;
+        }
+
+        .clicksection {
+            display: flex;
+            gap: 10px;
+        }
+
+        .clicksection a {
+            text-decoration: none;
+            color: black;
+            align-items: center;
+            font-size: 12px;
+            gap: 20px;
         }
 
 
-
-
-
+        .clicksection a.orange {
+            color: #f77008;
+        }
 
         .rightbar {
             display: flex;
             align-items: center;
+            gap: 10px;
+            width: 20%;
             justify-content: right;
-            gap: 20px
+            padding-right: 10px;
         }
 
         .contact {
             width: 10%;
+        }
+
+        .contactnumber {
+            font-size: 12px;
+        }
+
+        .b-contact {
+            background-color: #f77008;
+            color: rgb(255, 255, 255);
+            border: solid, 1px black;
+            border-radius: 5px;
+            font-size: 12px;
+            padding: 5px;
+
         }
     </style>
 </head>
@@ -33,14 +73,15 @@
 <body>
     <div class="navigationbar">
         <div class="logo">
-            <img src="image/logo.png" alt="logo">
+            <img src="image/logo.png" alt="logo" width="100%">
         </div>
         <div class="clicksection">
-            <a href="#">Home</a>
-            <a class="orange" href="#">Services</a>
-            <a href="#">Work</a>
-            <a href="#">Project Details</a>
-            <a href="#">Contact</a>
+            <div> <a href="#">Home</a></div>
+            <div> <a class="orange" href="#">Services</a></div>
+            <div><a href="#">Work</a></div>
+            <div><a href="#">Project Details</a></div>
+            <div><a href="#">Contact</a></div>
+
         </div>
         <div class="rightbar">
             <div class="contact">
@@ -51,7 +92,7 @@
                 <p>555-123-4567</p>
             </div>
             <div class="button">
-                <button>Contact</button>
+                <button class="b-contact">Contact</button>
             </div>
         </div>
     </div>
