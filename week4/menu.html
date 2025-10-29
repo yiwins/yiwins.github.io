@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>menu</title>
     <style>
         body {
             background-color: rgb(226, 226, 226);
@@ -21,20 +21,17 @@
         }
 
         .logo {
-            width: 25%;
-            padding-left: 20px;
-            padding-top: 5px;
+            width: calc(100%/3);
         }
 
         .logo img {
-            width: 45%;
-
+            width: 50%;
         }
 
         .clicksection {
             display: flex;
             gap: 30px;
-            width: 30%;
+            width: calc(100%/3);
             justify-content: center;
         }
 
@@ -55,25 +52,25 @@
             display: flex;
             align-items: center;
             gap: 12px;
-            width: 20%;
+            width: calc(100%/3);
             justify-content: right;
             padding-right: 20px;
         }
 
         .contact {
-            width: 10%;
+            width: 7%;
         }
 
         .contactnumber {
-            font-size: 12px;
+            font-size: 18px;
         }
 
         .b-contact {
             background-color: #f9612b;
             color: rgb(255, 255, 255);
             border: #f9612b;
-            border-radius: 5px;
-            font-size: 12px;
+            border-radius: 7px;
+            font-size: 14px;
             padding: 9px;
         }
 
@@ -82,7 +79,7 @@
             display: none;
         }
 
-        @media screen and (max-width: 1542px) {
+        @media screen and (max-width: 1407px) {
 
             .button {
                 display: none
@@ -98,7 +95,7 @@
 
         }
 
-        @media screen and (max-width: 944px) {
+        @media screen and (max-width: 845px) {
 
             .contact {
                 display: none
