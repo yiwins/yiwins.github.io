@@ -14,22 +14,28 @@
             display: flex;
             align-items: center;
             font-family: "Space Grotesk", sans-serif;
+            padding: 40px;
         }
 
         .logo {
-            width: calc(100%/2);
+            width: 42.5%;
+            padding-left: 60px;
         }
 
         .clicksection {
             display: flex;
-            width: calc(100%/2);
-            gap: 30px;
+            width: 42.5%;
+            gap: 40px;
             align-items: center;
+            justify-content: right;
+            padding-right: 90px;
+
         }
 
         .clicksection a {
             text-decoration: none;
             color: black;
+            font-size: 18px;
         }
 
         .highlight {
@@ -39,13 +45,18 @@
             padding: 5px;
         }
 
+        .request {
+            width: 15%;
+            padding-right: 80px;
+        }
+
         .button {
             background-color: rgb(255, 255, 255);
             border: 1px solid black;
-            border-radius: 5px;
-            padding: 5px;
+            border-radius: 9px;
+            padding: 15px;
+            font-size: 18px;
             font-family: "Space Grotesk", sans-serif;
-
         }
     </style>
 </head>
@@ -61,7 +72,9 @@
             <div class="highlight"> <a href="#">Use Casses</a></div>
             <div> <a href="#">Pricing</a></div>
             <div> <a href="#">Blog</a></div>
-            <div> <button class="button">Request a quote</button> </div>
+        </div>
+        <div class="request">
+            <button class="button">Request a quote</button>
         </div>
 
 
