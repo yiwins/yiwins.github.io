@@ -9,33 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
     <style>
-        .navigationbar {
-            width: 100%;
+        .page {
+            font-family: "Space Grotesk", sans-serif;
+            padding: 30px;
+
+
+        }
+
+        .navigation {
             display: flex;
             align-items: center;
-            font-family: "Space Grotesk", sans-serif;
-            padding: 40px;
+            margin: 10px;
+
+
         }
 
         .logo {
-            width: 42.5%;
-            padding-left: 60px;
+            width: 15%;
         }
 
         .clicksection {
             display: flex;
-            width: 42.5%;
-            gap: 40px;
+            gap: 50px;
             align-items: center;
-            justify-content: right;
-            padding-right: 90px;
-
+            width: 80%;
+            justify-content: end;
         }
 
         .clicksection a {
             text-decoration: none;
             color: black;
-            font-size: 18px;
+            font-size: 20px;
         }
 
         .highlight {
@@ -45,37 +49,55 @@
             padding: 5px;
         }
 
-        .request {
-            width: 15%;
-            padding-right: 80px;
-        }
+
 
         .button {
             background-color: rgb(255, 255, 255);
             border: 1px solid black;
             border-radius: 9px;
-            padding: 15px;
-            font-size: 18px;
+            padding: 18px;
+            font-size: 20px;
             font-family: "Space Grotesk", sans-serif;
+        }
+
+        .second {
+            background-color: #f3f3f3;
+            border-radius: 50px;
+            width: 80%;
+            margin: 50px;
+        }
+
+        .illus {
+            width: 50%;
+            padding: 40px;
         }
     </style>
 </head>
 
 <body>
-    <div class="navigationbar">
-        <div class="logo">
-            <img src="image/positivus.png" alt="positivus">
+    <div class="page">
+        <div class="navigation">
+            <div class="logo">
+                <img src="image/positivus.png" alt="positivus" width="100%">
+            </div>
+            <div class="clicksection">
+                <div> <a href="#">About us</a></div>
+                <div> <a href="#">Services</a></div>
+                <div class="highlight"> <a href="#">Use Cases</a></div>
+                <div> <a href="#">Pricing</a></div>
+                <div> <a href="#">Blog</a></div>
+                <div class="request"> <button class="button">Request a quote</button></div>
+            </div>
+
+
         </div>
-        <div class="clicksection">
-            <div> <a href="#">About us</a></div>
-            <div> <a href="#">Services</a></div>
-            <div class="highlight"> <a href="#">Use Casses</a></div>
-            <div> <a href="#">Pricing</a></div>
-            <div> <a href="#">Blog</a></div>
+        <div class="second">
+            <div class="illus">
+                <img class="img" src="image/illus.jpg" alt="illustration" width="50%">
+            </div>
         </div>
-        <div class="request">
-            <button class="button">Request a quote</button>
-        </div>
+
+
 
 
     </div>
