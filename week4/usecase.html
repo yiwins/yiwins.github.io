@@ -58,15 +58,101 @@
             font-family: "Space Grotesk", sans-serif;
         }
 
+        .menu {
+            width: 5%;
+            display: none;
+        }
+
         .second {
             background-color: #f3f3f3;
             border-radius: 50px;
             margin-top: 50px;
+            display: flex;
         }
 
         .illus {
             width: 50%;
-            padding: 40px;
+            padding: 50px;
+        }
+
+        .imgbox {
+            width: 80%;
+        }
+
+        .info {
+            width: 50%
+        }
+
+        .info h1 {
+            font-size: 70px;
+            padding: 20px;
+
+        }
+
+        .info p {
+            font-size: 20px;
+            padding: 20px;
+            padding-right: 170px;
+        }
+
+        .third {
+            background-color: black;
+            color: white;
+            padding-left: 70px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            margin-top: 70px;
+            border-radius: 50px;
+        }
+
+        .leftside {
+            width: 50%;
+        }
+
+        .leftside h1 {
+            font-size: 45px;
+            font-weight: normal;
+            margin-bottom: 60px;
+        }
+
+        .leftside h2 {
+            font-size: 30px;
+            font-weight: normal;
+            margin-bottom: 60px;
+        }
+
+        .leftside p {
+            font-size: 20px;
+        }
+
+        .header1 {
+            background-color: #B9FF66;
+            color: #191A23;
+            width: 80%;
+            padding-left: 10px;
+        }
+
+        .header2 {
+            width: 70%;
+        }
+
+        .paragraph {
+            width: 90%;
+        }
+
+        .arrowread {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-top: 60px;
+        }
+
+        .arrowicon {
+            width: 5%;
+        }
+
+        .read {
+            color: #B9FF66;
         }
     </style>
 </head>
@@ -84,15 +170,65 @@
                 <div> <a href="#">Pricing</a></div>
                 <div> <a href="#">Blog</a></div>
                 <div class="request"> <button class="button">Request a quote</button></div>
+                <div class="menu">
+                    <img src="image/menubar.png" alt="menu" width="100%">
+                </div>
             </div>
 
 
         </div>
         <div class="second">
             <div class="illus">
-                <img class="img" src="image/illus.jpg" alt="illustration" width="50%">
+                <div class="imgbox"><img class="img" src="image/illus.jpg" alt="illustration" width="100%"></div>
+            </div>
+            <div class="info">
+                <h1>Proven Success Stories</h1>
+                <p>See how our innovative digital marketing strategies have transformend businesses.Whether through
+                    SEO,PPC,social media,or web design,these use cases highlight the tangible impact of our work.Explore
+                    the successes and envision what we can achieve together.</p>
             </div>
         </div>
+
+        <div class="third">
+            <div class="leftside">
+                <div class="header1">
+                    <h1>Featured Success Story</h1>
+                </div>
+                <div class="header2">
+                    <h2>Scaling Success for a Leading E-Commerce Brand</h2>
+                </div>
+                <div class="paragraph">
+                    <p>Through a conprehensive SEO and PPC strategy,we helped this e-commerce brand increase
+                        visibility,drive traffic,and boost sales.</p>
+                </div>
+                <div class="arrowread">
+                    <div class="arrowicon"><img src="image/arrow.png" alt="arrow" width="100%"></div>
+                    <div>
+                        <p class="read">Read</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightside">
+                <div class="200">
+                    <h1>200%</h1>
+                    <p>increase in arganic traffic</p>
+                </div>
+                <div class="150">
+                    <h1>150%</h1>
+                    <p>rise in online sales</p>
+                </div>
+                <div class="75">
+                    <h1>75%</h1>
+                    <p>reduction in cost-per-click(CPC)</p>
+                </div>
+                <div class="300">
+                    <h1>300%</h1>
+                    <p>improvement in conversion rate</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
 
 
