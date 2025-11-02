@@ -5,10 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Page</title>
+    <style>
+        .fullpage {
+            max-width: 1920px;
+            margin: auto;
+        }
+
+        .firstbar {
+            background-color: rgb(0, 0, 0);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 10%;
+            padding: 10px;
+        }
+
+        .socialmedia {
+            width: 10%;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
 </head>
 
 <body>
-
+    <div class="fullpage">
+        <div class="firstbar">
+            <div class="logo">
+                <img src="image/ywlogo.png" alt="logo" width="100%">
+            </div>
+            <div class="socialmedia">
+                <div class="ig"><a
+                        href="https://www.instagram.com/yiwinst._?igsh=MTFmejIzYXU2cDE4OA%3D%3D&utm_source=qr"> <img
+                            src="image/instagram.png" alt="instagram" width="60%"> </a></div>
+                <div class="fb"><a href="https://www.facebook.com/share/1F7kJcYhrb/?mibextid=wwXIfr"><img
+                            src="image/facebook.png" alt="facebook" width="60%"> </a></div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
