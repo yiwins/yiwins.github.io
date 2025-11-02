@@ -92,7 +92,7 @@
         .info p {
             font-size: 20px;
             padding: 20px;
-            padding-right: 170px;
+            padding-right: 130px;
         }
 
         .third {
@@ -129,7 +129,7 @@
         .header1 {
             background-color: #B9FF66;
             color: #191A23;
-            width: 80%;
+            width: 90%;
             padding-left: 10px;
         }
 
@@ -160,18 +160,21 @@
             width: 50%;
             display: flex;
             flex-wrap: wrap;
-            padding-left: 95px;
+            justify-content: end;
+            padding-right: 50px;
+            margin: 20px;
         }
 
         .rightside div {
-            margin: 20px;
+            margin: 15px;
+            text-align: center;
         }
 
         .twohundred {
             background-color: white;
             color: #191A23;
             border-radius: 15px;
-            padding: 20px;
+            padding: 5px;
             width: 30%;
         }
 
@@ -179,7 +182,7 @@
             background-color: white;
             color: #191A23;
             border-radius: 15px;
-            padding: 20px;
+            padding: 5px;
             width: 30%;
         }
 
@@ -187,7 +190,7 @@
             background-color: white;
             color: #191A23;
             border-radius: 15px;
-            padding: 20px;
+            padding: 5px;
             width: 30%;
         }
 
@@ -195,8 +198,37 @@
             background-color: white;
             color: #191A23;
             border-radius: 15px;
-            padding: 20px;
+            padding: 5px;
             width: 30%;
+        }
+
+        .twohundred p {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        @media screen and (max-width: 1323px) {
+            .info h1 {
+                font-size: 60px;
+            }
+
+            .info p {
+                font-size: 19px;
+            }
+        }
+
+        @media screen and (max-width:1391px) {
+            .leftside h1 {
+                font-size: 40px;
+            }
+
+            .leftside h2 {
+                font-size: 25px;
+            }
+
+            .leftside p {
+                font-size: 18px;
+            }
         }
     </style>
 </head>
@@ -227,7 +259,8 @@
             </div>
             <div class="info">
                 <h1>Proven Success Stories</h1>
-                <p>See how our innovative digital marketing strategies have transformend businesses.Whether through
+                <p class="firstp">See how our innovative digital marketing strategies have transformend
+                    businesses.Whether through
                     SEO,PPC,social media,or web design,these use cases highlight the tangible impact of our work.Explore
                     the successes and envision what we can achieve together.</p>
             </div>
@@ -277,7 +310,7 @@
 
 
 
-    </div>
+
 </body>
 
 </html>
