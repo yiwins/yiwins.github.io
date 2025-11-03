@@ -15,22 +15,29 @@
             margin: 0;
         }
 
+        .extend {
+            background-color: #000000;
+            width: 100%;
+        }
+
         .fullpage {
-            max-width: 1510px;
+            max-width: 1400px;
             margin: auto;
             font-family: "Rubik", sans-serif;
         }
 
         .firstbar {
-            background-color: rgb(0, 0, 0);
             display: flex;
             justify-content: space-between;
-
+            max-width: 1400px;
+            margin: auto;
         }
 
-        .logo {
-            width: 10%;
-            padding: 10px;
+
+
+        .logo img {
+            width: 160px;
+            padding: 20px;
         }
 
         .socialmedia {
@@ -38,12 +45,30 @@
             display: flex;
             align-items: center;
             gap: 2px;
+            padding: 20px;
         }
 
         .self {
             margin: auto;
             width: 30%;
             text-align: center;
+        }
+
+        .self h1 {
+            color: #4A70A9;
+        }
+
+        .self h3 {
+            color: #8FABD4;
+            ;
+        }
+
+        .selfphoto {
+            margin: 40px;
+        }
+
+        .selfphoto img {
+            border-radius: 400px;
         }
 
         .self h1 {
@@ -55,7 +80,7 @@
         }
 
         .self p {
-            font-size: 20px;
+            font-size: 18px;
         }
 
         .work1 {
@@ -101,7 +126,7 @@
         .week2 a {
             text-decoration: none;
             color: #8FABD4;
-            font-size: 20px;
+            font-size: 25px;
         }
 
         .border2 {
@@ -123,7 +148,7 @@
         .week3 a {
             text-decoration: none;
             color: #8FABD4;
-            font-size: 20px;
+            font-size: 25px;
         }
 
         .border3 {
@@ -167,7 +192,7 @@
         .week4 a {
             text-decoration: none;
             color: #8FABD4;
-            font-size: 20px;
+            font-size: 25px;
         }
 
         .border4 {
@@ -225,14 +250,20 @@
             height: 30px;
         }
 
+        .ig2,
+        .fb2 {
+            width: 38px;
+        }
+
+        .xhs2 {
+            width: 45px;
+        }
 
         .bottonbar {
             background-color: #000000;
-            justify-content: center;
             align-items: center;
             margin-top: 70px;
-            padding: 30px;
-
+            padding: 20px;
         }
 
         .bottonbar p {
@@ -241,48 +272,43 @@
         }
 
         .socialmedia2 {
-            width: 10%;
             display: flex;
-            justify-content: center;
             align-items: center;
-            gap: 2px;
+            justify-content: center;
+            gap: 10px;
         }
 
         .reserved {
             text-align: center;
         }
-
-        .socialmedia2 {
-            align-items: center;
-            justify-content: center;
-        }
     </style>
 </head>
 
 <body>
-    <div class="fullpage">
+    <div class="extend">
         <div class="firstbar">
             <div class="logo">
                 <img src="image/ywlogo.png" alt="logo">
             </div>
             <div class="socialmedia">
                 <div class="ig"><a
-                        href="https://www.instagram.com/yiwinst._?igsh=MTFmejIzYXU2cDE4OA%3D%3D&utm_source=qr"> <img
-                            src="image/instagram.png" alt="instagram" width="70%"> </a>
-                </div>
-                <div class="fb"><a href="https://www.facebook.com/share/1F7kJcYhrb/?mibextid=wwXIfr"><img
-                            src="image/facebook.png" alt="facebook" width="70%"> </a>
-                </div>
+                        href="https://www.instagram.com/yiwinst._?igsh=MTFmejIzYXU2cDE4OA%3D%3D&utm_source=qr"
+                        target="_blank"> <img src="image/instagram.png" alt="instagram" width="70%"> </a></div>
+                <div class="fb"><a href="https://www.facebook.com/share/1F7kJcYhrb/?mibextid=wwXIfr"
+                        target="_blank"><img src="image/facebook.png" alt="facebook" width="70%"> </a></div>
                 <div class="xhs"><a href="https://www.xiaohongshu.com/user/profile/6057621700000000010088eb"
                         target="_blank"><img src="image/rednote.png" alt="rednote" width="90%"> </a></div>
             </div>
         </div>
+    </div>
+    <div class="fullpage">
+
         <div class="self">
             <div class="selfphoto">
-                <img src="image/profilepic.png" alt="selfphoto" width="100%">
+                <img src="image/selfpic.jpg" alt="selfphoto" width="100%">
             </div>
             <h1>Tok Yi Wins</h1>
-            <h2>Web Publishing</h2>
+            <h3>Web Publishing</h3>
             <p>Hello! I'm Yiwins, a Web designer. My passionate is about crafting designs that touch people's hearts.
             </p>
         </div>
@@ -310,9 +336,9 @@
                     <h1>Week 3</h1>
                 </div>
                 <hr class="border3">
-                <a href="week3/flexbox1.html" target="_blank">Flexbox 1</a><br>
-                <a href="week3/flexbox2.html" target="_blank">Flexbox 2</a><br>
-                <a href="week3/flexbox3.html" target="_blank">Flexbox 3</a>
+                <a href="week3/flexbox1.html" target="_blank">Exercise 1</a><br>
+                <a href="week3/flexbox2.html" target="_blank">Exercise 2</a><br>
+                <a href="week3/flexbox3.html" target="_blank">Exercise 3</a>
             </div>
         </div>
         <div class="week4">
@@ -321,18 +347,20 @@
                 <h1>Week 4</h1>
             </div>
             <hr class="border4">
-            <a href="week4/menu.html" target="_blank">Menu</a><br>
-            <a href="week4/usecase.html" target="_blank">Usecase</a>
+            <a href="week4/menu.html" target="_blank">Exercise 1</a><br>
+            <a href="week4/usecase.html" target="_blank">Exercise 2</a>
         </div>
+    </div>
+    <div class="extend2">
         <div class="bottonbar">
             <div class="socialmedia2">
                 <div class="ig2"><a
                         href="https://www.instagram.com/yiwinst._?igsh=MTFmejIzYXU2cDE4OA%3D%3D&utm_source=qr"
-                        target="_blank"> <img src="image/instagram.png" alt="instagram" width="70%"> </a></div>
+                        target="_blank"> <img src="image/instagram.png" alt="instagram" width="100%"> </a></div>
                 <div class="fb2"><a href="https://www.facebook.com/share/1F7kJcYhrb/?mibextid=wwXIfr"
-                        target="_blank"><img src="image/facebook.png" alt="facebook" width="70%"> </a></div>
+                        target="_blank"><img src="image/facebook.png" alt="facebook" width="100%"> </a></div>
                 <div class="xhs2"><a href="https://www.xiaohongshu.com/user/profile/6057621700000000010088eb"
-                        target="_blank"><img src="image/rednote.png" alt="rednote" width="90%"> </a></div>
+                        target="_blank"><img src="image/rednote.png" alt="rednote" width="100%"> </a></div>
             </div>
             <div>
                 <p class="reserved">©️2024 Yiwins. All rights reserved.</p>
