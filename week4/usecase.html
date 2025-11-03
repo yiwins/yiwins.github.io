@@ -70,9 +70,18 @@
             display: flex;
         }
 
+        .title {
+            display: none;
+            font-size: 40px;
+        }
+
         .illus {
             width: 50%;
             padding: 50px;
+        }
+
+        .white {
+            display: none;
         }
 
         .imgbox {
@@ -103,6 +112,11 @@
             padding-bottom: 40px;
             margin-top: 70px;
             border-radius: 50px;
+            gap: 20px;
+
+        }
+
+        .leftright {
             display: flex;
         }
 
@@ -124,11 +138,6 @@
 
         .leftside p {
             font-size: 20px;
-        }
-
-        .mobilever {
-            display: flex;
-            align-items: center;
         }
 
         .header1 {
@@ -212,6 +221,17 @@
             padding-right: 30px;
         }
 
+        .featuredicon {
+            width: 20%;
+            display: none;
+        }
+
+        .mobilever h1 {
+            margin: 0;
+            display: none;
+            font-weight: normal;
+        }
+
         @media screen and (max-width: 1323px) {
             .info h1 {
                 font-size: 60px;
@@ -222,9 +242,14 @@
             }
         }
 
-        @media screen and (max-width:1391px) {
+        @media screen and (max-width:1401px) {
+
+            .info p {
+                font-size: 15px;
+            }
+
             .leftside h1 {
-                font-size: 40px;
+                font-size: 35px;
             }
 
             .leftside h2 {
@@ -233,6 +258,22 @@
 
             .leftside p {
                 font-size: 18px;
+            }
+
+            .twohundred p {
+                font-size: 14px;
+            }
+
+            .onehundredfifty p {
+                font-size: 14px;
+            }
+
+            .seventyfive {
+                font-size: 14px;
+            }
+
+            .threehundred {
+                font-size: 14px;
             }
         }
 
@@ -245,6 +286,88 @@
             .leftside p {
                 font-size: 18px;
             }
+
+            .header1 {
+                display: none;
+            }
+
+            .mobilever h1 {
+                display: block;
+                color: #B9FF66;
+            }
+
+            .featuredicon {
+                display: block;
+            }
+
+            .clicksection {
+                display: none;
+            }
+
+            .menu {
+                display: block;
+            }
+        }
+
+        @media screen and (max-width:833px) {
+            .second {
+                flex-direction: column;
+                background-color: white;
+            }
+
+            .title {
+                display: block;
+            }
+
+            .info h1 {
+                display: none;
+            }
+
+            .illus {
+                display: none;
+            }
+
+            .info {
+                width: 100%;
+                text-align: center;
+                padding: 0px;
+            }
+
+            .info p {
+                padding: 0px;
+            }
+
+            .white {
+                display: block;
+            }
+
+            .third {
+                display: flex;
+            }
+
+            .leftright {
+                flex-direction: column;
+            }
+
+            .rightside {
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .leftside {
+                width: 100%;
+            }
+
+            .leftside h2 {
+                font-size: 25px;
+                font-weight: normal;
+                margin-bottom: 60px;
+            }
+
+            .leftside p {
+                font-size: 20px;
+            }
+
         }
     </style>
 </head>
@@ -262,14 +385,18 @@
                 <div> <a href="#">Pricing</a></div>
                 <div> <a href="#">Blog</a></div>
                 <div class="request"> <button class="button">Request a quote</button></div>
-                <div class="menu">
-                    <img src="image/menubar.png" alt="menu" width="100%">
-                </div>
+            </div>
+            <div class="menu">
+                <img src="image/menubar.png" alt="menu" width="100%">
             </div>
 
 
         </div>
         <div class="second">
+            <div class="title">
+                <h1>Proven Success Stories</h1>
+            </div>
+            <div class="white"><img src="image/white.png" alt="illustration" width="100%"></div>
             <div class="illus">
                 <div class="imgbox"><img class="img" src="image/illus.jpg" alt="illustration" width="100%"></div>
             </div>
@@ -283,44 +410,47 @@
         </div>
 
         <div class="third">
-            <div class="leftside">
-                <div class="mobilever">
-                    <img src="image/star.png" alt="star" width="10%">
-                    <h1>Featured </h1>
-                </div>
-                <div class="header1">
-                    <h1>Featured Success Story</h1>
-                </div>
-                <div class="header2">
-                    <h2>Scaling Success for a Leading E-Commerce Brand</h2>
-                </div>
-                <div class="paragraph">
-                    <p>Through a conprehensive SEO and PPC strategy,we helped this e-commerce brand increase
-                        visibility,drive traffic,and boost sales.</p>
-                </div>
-                <div class="arrowread">
-                    <div class="arrowicon"><img src="image/arrow.png" alt="arrow" width="100%"></div>
-                    <div>
-                        <p class="read">Read</p>
+            <div class="featuredicon"> <img src="image/star.png" alt="star" width="100%">
+            </div>
+            <div class="leftright">
+                <div class="leftside">
+                    <div class="mobilever">
+                        <h1>FEATURED </h1>
+                    </div>
+                    <div class="header1">
+                        <h1>Featured Success Story</h1>
+                    </div>
+                    <div class="header2">
+                        <h2>Scaling Success for a Leading E-Commerce Brand</h2>
+                    </div>
+                    <div class="paragraph">
+                        <p>Through a conprehensive SEO and PPC strategy,we helped this e-commerce brand increase
+                            visibility,drive traffic,and boost sales.</p>
+                    </div>
+                    <div class="arrowread">
+                        <div class="arrowicon"><img src="image/arrow.png" alt="arrow" width="100%"></div>
+                        <div>
+                            <p class="read">Read</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="rightside">
-                <div class="twohundred">
-                    <h1>200%</h1>
-                    <p>increase in arganic traffic</p>
-                </div>
-                <div class="onehundredfifty">
-                    <h1>150%</h1>
-                    <p>rise in online sales</p>
-                </div>
-                <div class="seventyfive">
-                    <h1>75%</h1>
-                    <p>reduction in cost-per-click(CPC)</p>
-                </div>
-                <div class="threehundred">
-                    <h1>300%</h1>
-                    <p>improvement in conversion rate</p>
+                <div class="rightside">
+                    <div class="twohundred">
+                        <h1>200%</h1>
+                        <p>increase in arganic traffic</p>
+                    </div>
+                    <div class="onehundredfifty">
+                        <h1>150%</h1>
+                        <p>rise in online sales</p>
+                    </div>
+                    <div class="seventyfive">
+                        <h1>75%</h1>
+                        <p>reduction in cost-per-click(CPC)</p>
+                    </div>
+                    <div class="threehundred">
+                        <h1>300%</h1>
+                        <p>improvement in conversion rate</p>
+                    </div>
                 </div>
 
             </div>
