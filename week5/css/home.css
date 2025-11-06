@@ -8,7 +8,8 @@
     display: flex;
     align-items: center;
     gap: 70px;
-    margin: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     justify-content: space-between;
     font-family: 'space grotesk', sans-serif;
 }
@@ -57,13 +58,12 @@
 
 .third {
     display: flex;
-    margin: 40px;
 }
 
 .apps {
     display: flex;
     gap: 50px;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .apps img {
@@ -85,7 +85,7 @@
         font-size: 50px;
     }
 
-    .heading p {
+    .paragraph p {
         font-size: 17px;
     }
 }
@@ -99,12 +99,62 @@
         font-size: 45px;
     }
 
-    .heading p {
-        font-size: 12px;
+    .paragraph p {
+        font-size: 1px;
     }
 
     .button2 {
         font-size: 10px;
         padding: 10px;
+    }
+}
+
+@media screen and (max-width:916px) {
+
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .paragraph p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:607px) {
+    .information {
+        width: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+    }
+
+    .heading h1 {
+        font-size: 45px;
+    }
+
+    .paragraph p {
+        font-size: 20px;
+    }
+
+    .button2 {
+        font-size: 15px;
+        padding: 15px;
+    }
+
+    .button2 {
+        text-align: center;
+    }
+
+    .apps {
+        flex-wrap: wrap;
+    }
+
+    .apps img {
+        width: 40%;
     }
 }
