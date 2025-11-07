@@ -1,3 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: "Space Grotesk", sans-serif;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
 .navigation {
     display: flex;
     align-items: center;
@@ -20,6 +31,7 @@
     text-decoration: none;
     color: black;
     font-size: 20px;
+    padding: 5px;
 }
 
 .button {
@@ -34,6 +46,12 @@
 .menu {
     width: 5%;
     display: none;
+}
+
+.highlight {
+    background-color: #B9FF66;
+    border: 1px solid #B9FF66;
+    border-radius: 5px;
 }
 
 @media screen and (max-width:1165px) {

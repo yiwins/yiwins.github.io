@@ -1,22 +1,9 @@
-.page {
-    font-family: "Space Grotesk", sans-serif;
-    padding: 30px;
-    max-width: 1400px;
-    margin: auto;
-}
-
-.highlight {
-    background-color: #B9FF66;
-    border: 1px solid #B9FF66;
-    border-radius: 5px;
-    padding: 5px;
-}
-
 .second {
     background-color: #f3f3f3;
     border-radius: 50px;
     margin-top: 50px;
     display: flex;
+    align-items: center;
 }
 
 .title {
@@ -26,7 +13,7 @@
 
 .title h1 {
     margin: 0;
-    font-weight: normal;
+    font-weight: 800;
 }
 
 .illus {
@@ -59,17 +46,6 @@
     padding-right: 130px;
 }
 
-/* .third {
-    background-color: black;
-    color: white;
-    padding-left: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 70px;
-    border-radius: 50px;
-    gap: 20px;
-
-} */
 
 .third {
     background-color: black;
@@ -78,7 +54,6 @@
     margin-top: 70px;
     border-radius: 50px;
     gap: 20px;
-
 }
 
 .leftright {
@@ -108,6 +83,7 @@
 .header1 {
     background-color: #B9FF66;
     color: #191A23;
+    border-radius: 5px;
     width: 80%;
     padding-left: 10px;
 }
@@ -156,7 +132,7 @@
     width: 50%;
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 40px;
     justify-content: flex-end;
     margin-right: 20px;
 }
@@ -169,6 +145,14 @@
     border-radius: 15px;
     padding: 10px;
     width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container p,
+h1 {
+    margin: 0;
 }
 
 
@@ -265,6 +249,7 @@
     .info p {
         font-size: 12px;
     }
+
 
 }
 
