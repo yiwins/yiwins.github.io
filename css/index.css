@@ -309,8 +309,10 @@ body {
 }
 
 @media screen and (max-width: 923px) {
+    .week1 {
+        width: 75%;
+    }
 
-    .week1,
     .week2,
     .week3 {
         width: 80%;
