@@ -43,6 +43,12 @@
     font-family: "Space Grotesk", sans-serif;
 }
 
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    border: black;
+    color: rgb(255, 255, 255);
+}
+
 .menu {
     width: 5%;
     display: none;
