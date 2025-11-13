@@ -14,21 +14,23 @@ body {
 
 }
 
-.firstrow {
+.row {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
-.firstrow>div {
+.row>div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 
 
 .picture {
-    width: 33.33%;
+    width: 30%;
 }
 
 .img1 img {
@@ -41,7 +43,7 @@ body {
     width: 60%;
     text-align: center;
     font-size: 20px;
-    padding: 4%;
+    padding: 25px;
     position: relative;
     top: -70px;
     border-radius: 20px;
@@ -50,16 +52,39 @@ body {
 .paragraph p {
     margin: 0;
     margin-bottom: 40px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
-.paragraph-space {
+.p-space {
+    background-color: rgb(228, 221, 221);
+    box-shadow: 0 10px 20px rgb(140, 138, 138);
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    padding: 25px;
+    position: relative;
+    top: -70px;
+    border-radius: 20px;
+}
+
+.p-space p {
     margin: 0;
-    margin-bottom: 90px;
+    margin-bottom: 60px;
 }
 
 
 .read {
     color: rgb(30, 194, 30);
+}
+
+@media screen and (max-width: 1395px) {
+    .paragraph {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1201px) {
+    .heading {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
 }
