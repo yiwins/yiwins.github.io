@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.page {
+    font-family: "Space Grotesk", sans-serif;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 15%;
+}
+
+.clicksection {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    width: 80%;
+    justify-content: end;
+}
+
+.clicksection a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.button {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 9px;
+    padding: 18px;
+    font-size: 20px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 0);
+    border: black;
+    color: rgb(255, 255, 255);
+}
+
+.menu {
+    width: 5%;
+    display: none;
+}
+
+.highlight {
+    background-color: #B9FF66;
+    border: 1px solid #B9FF66;
+    border-radius: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    z-index: 1;
+    background-color: #B9FF66;
+}
+
+.submenu a {
+    display: block;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+@media screen and (max-width:1165px) {
+    .clicksection {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .logo {
+        width: 25%;
+    }
+
+    .menu {
+        width: 8%;
+    }
+}

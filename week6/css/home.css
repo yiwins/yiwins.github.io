@@ -1,0 +1,159 @@
+.second {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+    font-family: 'space grotesk', sans-serif;
+}
+
+.image-mobile {
+    display: none;
+}
+
+.information {
+    width: 50%;
+}
+
+.heading h1 {
+    font-size: 60px;
+}
+
+.paragraph p {
+    font-size: 25px;
+}
+
+.button2 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: black 1px solid;
+    border-radius: 12px;
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.image {
+    width: 50%;
+    justify-content: right;
+}
+
+.image img {
+    width: 100%;
+}
+
+.third {
+    display: flex;
+}
+
+.apps {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.apps img {
+    width: 10%;
+}
+
+@media screen and (max-width:1159px) {
+    .heading h1 {
+        font-size: 55px;
+    }
+
+    .heading p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:1118px) {
+    .heading h1 {
+        font-size: 50px;
+    }
+
+    .paragraph p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width:1006px) {
+    .second {
+        gap: 50px;
+    }
+
+    .heading h1 {
+        font-size: 45px;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+    }
+
+    .button2 {
+        font-size: 10px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:916px) {
+
+    .heading h1 {
+        font-size: 40px;
+    }
+
+    .paragraph p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:607px) {
+    .information {
+        width: 100%;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .image-mobile {
+        display: block;
+    }
+
+    .heading h1 {
+        font-size: 45px;
+    }
+
+    .paragraph p {
+        font-size: 20px;
+    }
+
+    .paragraph>div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .button2 {
+        font-size: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .apps {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+
+    .apps img {
+        /* width: calc(33.33% - 50px); */
+        width: 40%;
+        padding: 20px;
+    }
+}
