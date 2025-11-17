@@ -71,7 +71,7 @@ body {
     margin: auto;
 }
 
-.week1 {
+.week {
     background-color: #efece3a5;
     text-align: center;
     padding: 45px;
@@ -88,132 +88,22 @@ body {
     margin: 20px;
 }
 
-.week1 a {
+.week a {
     text-decoration: none;
     color: #8FABD4;
     font-size: 25px;
 
 }
 
-.week2 {
-    background-color: #efece3a5;
-    text-align: center;
-    padding: 30px;
-    border-radius: 20px;
-    width: calc(100%/3);
-    margin: 20px;
-}
-
-.week2 a {
-    text-decoration: none;
-    color: #8FABD4;
-    font-size: 25px;
-}
-
-.border2 {
-    border: none;
-    background-color: #000000;
-    height: 2px;
-    margin: 20px;
-}
-
-.week3 {
-    background-color: #efece3a5;
-    text-align: center;
-    padding: 30px;
-    border-radius: 20px;
-    width: calc(100%/3);
-    margin: 20px;
-}
-
-.week3 a {
-    text-decoration: none;
-    color: #8FABD4;
-    font-size: 25px;
-}
-
-.border3 {
-    border: none;
-    background-color: #000000;
-    height: 2px;
-    margin: 20px;
-}
-
-.week1 h1 {
+.week h1 {
     color: #4A70A9;
     margin: 0;
-}
-
-.week2 h1 {
-    color: #4A70A9;
-    margin: 0;
-
-}
-
-.week3 h1 {
-    color: #4A70A9;
-    margin: 0;
-
-}
-
-.week4 {
-    background-color: #efece3a5;
-    text-align: center;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 20px;
-    width: 50%;
-}
-
-.week4 h1 {
-    color: #4A70A9;
-    margin: 0;
-}
-
-.week4 a {
-    text-decoration: none;
-    color: #8FABD4;
-    font-size: 25px;
-}
-
-.border4 {
-    border: none;
-    background-color: #000000;
-    height: 2px;
-    margin: 20px;
 }
 
 .work2 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
-
-.week5 {
-    background-color: #efece3a5;
-    text-align: center;
-    padding: 30px;
-    border-radius: 20px;
-    margin: 20px;
-    width: 50%;
-}
-
-.week5 h1 {
-    color: #4A70A9;
-    margin: 0;
-}
-
-.week5 a {
-    text-decoration: none;
-    color: #8FABD4;
-    font-size: 25px;
-}
-
-.border5 {
-    border: none;
-    background-color: #000000;
-    height: 2px;
-    margin: 20px;
 }
 
 .icon {
@@ -224,54 +114,6 @@ body {
 }
 
 .icon img {
-    width: 30px;
-    height: 30px;
-}
-
-.icon2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.icon2 img {
-    width: 30px;
-    height: 30px;
-}
-
-.icon3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.icon3 img {
-    width: 30px;
-    height: 30px;
-}
-
-.icon4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.icon4 img {
-    width: 30px;
-    height: 30px;
-}
-
-.icon5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.icon5 img {
     width: 30px;
     height: 30px;
 }
@@ -321,6 +163,7 @@ body {
     .work1,
     .work2 {
         flex-direction: column;
+        align-items: center;
     }
 
     .week4 {
