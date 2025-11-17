@@ -38,18 +38,18 @@ body {
 
 .self {
     margin: auto;
-    width: 30%;
+    width: 20%;
     text-align: center;
 }
 
 .self h1 {
     color: #4A70A9;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .self h3 {
     color: #8FABD4;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .selfphoto {
@@ -61,7 +61,7 @@ body {
 }
 
 .self p {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .work1 {
@@ -71,6 +71,28 @@ body {
     margin: auto;
 }
 
+.week1 {
+    background-color: #efece3a5;
+    text-align: center;
+    padding: 55px;
+    border-radius: 20px;
+    width: calc(100%/3);
+    margin: 20px;
+}
+
+.week1 a {
+    text-decoration: none;
+    color: #8FABD4;
+    font-size: 16px;
+
+}
+
+.week1 h1 {
+    color: #4A70A9;
+    margin: 0;
+    font-size: 20px;
+}
+
 .week {
     background-color: #efece3a5;
     text-align: center;
@@ -78,7 +100,6 @@ body {
     border-radius: 20px;
     width: calc(100%/3);
     margin: 20px;
-
 }
 
 .border {
@@ -91,13 +112,13 @@ body {
 .week a {
     text-decoration: none;
     color: #8FABD4;
-    font-size: 25px;
-
+    font-size: 16px;
 }
 
 .week h1 {
     color: #4A70A9;
     margin: 0;
+    font-size: 20px;
 }
 
 .work2 {
@@ -114,8 +135,8 @@ body {
 }
 
 .icon img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 
 .ig2,
@@ -152,30 +173,17 @@ body {
 
 @media screen and (max-width: 923px) {
     .week1 {
-        width: 75%;
+        width: 50%;
     }
 
-    .week2,
-    .week3 {
-        width: 80%;
+    .week {
+        width: 55%;
     }
 
     .work1,
     .work2 {
         flex-direction: column;
         align-items: center;
-    }
-
-    .week4 {
-        width: 80%;
-        margin: auto;
-        margin-top: 10px;
-    }
-
-    .week5 {
-        width: 80%;
-        margin: auto;
-        margin-top: 40px;
     }
 
     .self {
